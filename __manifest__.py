@@ -21,9 +21,9 @@
 ##############################################################################
 
 {
-    'name': 'Barcode Scan Picking MFH',
-    'version': '10.0.0.1.0',
-    'author': 'Falcon Solutions SpA',
+    'name': 'Barcode Scan Picking GS',
+    'version': '11.0',
+    'author': 'Gabosoft',
     'maintainer': 'Falcon Solutions SpA',
     'website': 'http://www.falconsolutions.cl',
     'license': 'AGPL-3',
