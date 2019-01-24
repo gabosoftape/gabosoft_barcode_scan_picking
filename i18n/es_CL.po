@@ -1,0 +1,146 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* barcode_scan_picking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-03 14:25+0000\n"
+"PO-Revision-Date: 2018-08-03 14:25+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_list_productcode_barcode
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_stock_picking_temp_barcode
+msgid "Barcode"
+msgstr "Código de barras"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_list_productcode_bool_barcode
+msgid "Barcode Checked"
+msgstr "Verificado"
+
+#. module: barcode_scan_picking
+#: model:ir.ui.view,arch_db:barcode_scan_picking.stock_picking_barcode_form
+msgid "Barcode Picking"
+msgstr "Código de barras en albarán"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_list_productcode_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_list_productcode_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_list_productcode_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_list_productcode_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: barcode_scan_picking
+#: model:ir.ui.view,arch_db:barcode_scan_picking.stock_picking_barcode_form
+msgid "Incomplete Picking"
+msgstr "Albarán no verificado"
+
+#. module: barcode_scan_picking
+#: model:ir.ui.view,arch_db:barcode_scan_picking.stock_picking_barcode_form
+msgid "Insert EAN-13 Code"
+msgstr "Ingrese código de barras"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,help:barcode_scan_picking.field_list_productcode_barcode
+msgid "International Article Number used for product identification."
+msgstr "Número de artículo internacional usado para la identificación de producto."
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_list_productcode___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_list_productcode_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_list_productcode_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_list_productcode_picking_id
+#: model:ir.ui.view,arch_db:barcode_scan_picking.stock_picking_barcode_form
+msgid "Picking"
+msgstr "Guía de despacho"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_list_productcode_product_id
+msgid "Product "
+msgstr "Producto "
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_stock_picking_productcodes_ids
+msgid "Productos"
+msgstr "Productos"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_list_productcode_qty
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_stock_picking_picking_checked
+msgid "Ready Picking"
+msgstr "Albarán verificado"
+
+#. module: barcode_scan_picking
+#: model:ir.model.fields,field_description:barcode_scan_picking.field_list_productcode_default_code
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: barcode_scan_picking
+#: model:ir.model,name:barcode_scan_picking.model_stock_move
+msgid "Stock Move"
+msgstr "Movimiento de stock"
+
+#. module: barcode_scan_picking
+#: model:ir.ui.view,arch_db:barcode_scan_picking.stock_picking_barcode_form
+msgid "Sum"
+msgstr "Sumatoria"
+
+#. module: barcode_scan_picking
+#: code:addons/barcode_scan_picking/models/stock_picking.py:36
+#, python-format
+msgid "The quantity checked is bigger than quantity in picking move for product %s."
+msgstr "La cantidad verificada en mayor a la cantidad en el movimiento de inventario para el producto %s."
+
+#. module: barcode_scan_picking
+#: model:ir.model,name:barcode_scan_picking.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"
+
+#. module: barcode_scan_picking
+#: code:addons/barcode_scan_picking/models/stock_picking.py:35
+#, python-format
+msgid "Warning!"
+msgstr "Advertencia!"
+
+#. module: barcode_scan_picking
+#: model:ir.model,name:barcode_scan_picking.model_list_productcode
+msgid "list.productcode"
+msgstr "list.productcode"
+

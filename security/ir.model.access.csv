@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_stock_list_productcode,access.stock.list.productcode,barcode_scan_picking.model_list_productcode,stock.group_stock_user,1,1,1,1

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="stock_picking_barcode_form">
+        <field name="name">stock.picking.barcode.form</field>
+        <field name="inherit_id" ref="stock.view_picking_form"/>
+        <field name="model">stock.picking</field>
+        <field name="arch" type="xml">
+            <field name="origin" position="after">
+                <field name="picking_checked"/>
+            </field>
+            <notebook>
+                <page string="Barcode Picking" name="barcode_picking">
+                    <h2>
+                        <field name="temp_barcode" placeholder="Insert EAN-13 Code"/>
+                    </h2>
+                    <field name="productcodes_ids">
+                        <tree string="Picking" editable="bottom" colors="red:bool_barcode==False;">
+                            <field name="product_id" required="1"/>
+                            <field name="qty" required="1" sum="Sum"/>
+                            <field name="default_code" readonly="1"/>
+                            <field name="barcode" readonly="1"/>
+                            <field name="bool_barcode" invisible="1"/>
+                        </tree>
+                    </field>
+                    <div class="alert alert-info" role="alert" style="margin-bottom:0px;" attrs="{'invisible': [('picking_checked', '=', True)]}">
+                        Incomplete Picking
+                    </div>
+                </page>
+            </notebook>
+        </field>
+    </record>
+    
+    <!-- ............... HERENCIA VISTA EN TREE ...............-->
+    <record model="ir.ui.view" id="sii_barcode_tree">
+        <field name="name">sii.barcode.tree</field>
+        <field name="inherit_id" ref="stock.vpicktree"/>
+        <field name="model">stock.picking</field>
+        <field name="arch" type="xml">
+            <field name="state" position="after">
+                <field name="picking_checked" />
+            </field>
+        </field>
+    </record>
+
+    <!--
+
+    <record model="ir.ui.view" id="sii_barcode_tree_move">
+        <field name="name">sii.barcode.tree.move</field>
+        <field name="inherit_id" ref="stock.vpicktree"/>
+        <field name="model">stock.move</field>
+        <field name="arch" type="xml">
+            <field name="state" position="after">
+                <field name="bool_barcode" />
+            </field>
+        </field>
+    </record>
+    -->
+      
+
+</odoo>
