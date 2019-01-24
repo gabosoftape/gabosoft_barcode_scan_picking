@@ -21,30 +21,23 @@
 ##############################################################################
 
 {
-    'name': 'Barcode Scan Picking GS',
-    'version': '11.0',
+    'name': 'Automated scan in Inventory',
+    'version': '11.0.1.0.0',
+    'summary': 'Barcode Support in Stock Picking.',
     'author': 'Gabosoft',
-    'maintainer': 'Falcon Solutions SpA',
-    'website': 'http://www.falconsolutions.cl',
-    'license': 'AGPL-3',
-    'category': 'Stock',
-    'summary': 'Barcode Scan Picking',
-    'description': """
-Barcode Scan Picking
-=====================================================
-1-. Barcode check in stock picking.\n
-""",
-    'depends': [
-        'stock'
-    ],
-    'data': [
-        'security/ir.model.access.csv',
-        'views/stock_picking_view.xml',
-    ],
-    'images': ['static/description/banner.jpg'],
+    'maintainer': 'gabosoft',
+    'company': 'Cybrosys Techno Solutions',
+    'website': 'https://www.cybrosys.com',
+    'depends': ['stock'],
+    'category': 'Inventory',
     'demo': [],
-    'test': [],
+    'data': [
+        'views/stock_picking_view.xml',
+        'security/ir.model.access.csv',
+    ],
     'installable': True,
+    'application': False,
     'auto_install': False,
-
+    'qweb': [],
+    'license': 'AGPL-3',
 }
