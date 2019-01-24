@@ -1,0 +1,1 @@
+gabosoft_barcode_scan_picking
